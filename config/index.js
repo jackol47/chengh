@@ -7,12 +7,6 @@ const config = {
       presets: [
         'env'
       ],
-      plugins: [
-        'transform-decorators-legacy',
-        'transform-class-properties',
-        'transform-object-rest-spread'
-      ]
-    }
   },
   defineConstants: {
   },
