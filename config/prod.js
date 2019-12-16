@@ -6,4 +6,5 @@ module.exports = {
   },
   weapp: {},
   h5: {}
+  ajsgdjugd;
 }
