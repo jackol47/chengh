@@ -1,0 +1,63 @@
+.tip {
+  width: 270px;
+  background-color: rgba(255, 255, 255, 0.94);
+  border-radius: 14px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-left: -135px;
+  margin-top: -80px;
+  z-index: 99;
+  transform: translateZ(1px);
+
+  &_title {
+    height: 24px;
+    font-size: 17px;
+    line-height: 24px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  &_show {
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 20px;
+    color: #333;
+    text-align: center;
+    width: 85%;
+    margin-top: 10px;
+  }
+
+  &_footer {
+    margin-top: 20px;
+    height: 48px;
+    border-top: 1px solid #dbdbdb;
+
+    P {
+      font-size: 17px;
+      line-height: 48px;
+      color: #0077ff;
+      text-align: center;
+    }
+  }
+}
+
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 9;
+  transition: all 1s ease-in-out;
+}
+
+.noShow {
+  display: none;
+}
+
+.show {
+  display: block;
+}
